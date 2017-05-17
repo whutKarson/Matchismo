@@ -18,6 +18,6 @@
 -(Card *)chooseCardAtIndex: (NSUInteger)index;
 -(Card *)cardAtIndex:(NSUInteger)index;
 
-@property(nonatomic,readonly) NSUInteger score;
+@property(nonatomic,readonly) NSInteger score;
 
 @end
